@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36327" started-at="2020-11-27T09:01:58 CST" finished-at="2020-11-27T09:02:34 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36327" started-at="2020-11-27T09:01:58 CST" finished-at="2020-11-27T09:02:34 CST">
+      <class name="com.myx.demo.MYXDemo">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.myx.demo.MYXDemo@57855c9a]" name="doBeforeClass" is-config="true" duration-ms="5785" started-at="2020-11-27T09:01:58 CST" finished-at="2020-11-27T09:02:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.myx.demo.MYXDemo@57855c9a]" name="testLogin" duration-ms="10966" started-at="2020-11-27T09:02:04 CST" data-provider="excel" finished-at="2020-11-27T09:02:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wgh123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wgh123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="test5()[pri:5, instance:com.myx.demo.MYXDemo@57855c9a]" name="test5" duration-ms="18219" started-at="2020-11-27T09:02:15 CST" finished-at="2020-11-27T09:02:33 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.myx.demo.MYXDemo@57855c9a]" name="doAfterMethod" is-config="true" duration-ms="952" started-at="2020-11-27T09:02:33 CST" finished-at="2020-11-27T09:02:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.myx.demo.MYXDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
